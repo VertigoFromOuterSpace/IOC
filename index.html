@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Análise de IOCs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Central de Análise de IOCs</h1>
+            <p>Cole uma lista de Indicadores de Comprometimento (IPs, domínios, hashes) abaixo, um por linha.</p>
+        </header>
+
+        <main>
+            <textarea id="ioc-input" placeholder="8.8.8.8&#10;google.com&#10;5d41402abc4b2a76b9719d911017c592..."></textarea>
+            <button id="analyze-btn">Analisar Indicadores</button>
+            
+            <div id="results-container">
+                </div>
+        </main>
+
+        <footer>
+            <p>Criado para Analistas de Cibersegurança</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

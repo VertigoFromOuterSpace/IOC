@@ -1,3 +1,3 @@
 # Central de Análise de IOCs
 
-Uma ferramenta web simples desenvolvida para analistas de cibersegurança que permite inserir Indicadores de Comprometimento (IOCs) como endereços IP, domínios e hashes de arquivos, e obter links diretos para análise em plataformas de threat intelligence. A aplicação identifica automaticamente o tipo de cada indicador e fornece links relevantes para serviços como VirusTotal, AbuseIPDB, Shodan, URLScan.io e MalwareBazaar, facilitando o processo de investigação e análise de ameaças de segurança.
+Uma ferramenta web simples que permite inserir Indicadores de Comprometimento (IOCs) como endereços IP, domínios e hashes de arquivos, e obter links diretos para análise em plataformas de threat intelligence. A aplicação identifica automaticamente o tipo de cada indicador e fornece links relevantes para serviços como VirusTotal, AbuseIPDB, Shodan, URLScan.io e MalwareBazaar, facilitando o processo de investigação e análise de ameaças de segurança.
